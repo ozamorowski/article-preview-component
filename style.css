@@ -1,0 +1,73 @@
+:root {
+  --very_dark_blue: hsl(217, 19%, 35%);
+  --dark_blue: hsl(214, 17%, 51%);
+  --blue: hsl(212, 23%, 69%);
+  --light_blue: hsl(210, 46%, 95%);
+}
+
+body,
+html {
+  font-family: 'Manrope', sans-serif;
+  font-size: 13px;
+  background-color: var(--light_blue);
+  color: var(--dark_blue);
+}
+.container {
+  margin: 6em auto;
+  background-color: white;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  max-width: 750px;
+  box-shadow: 10px 7px 21px -20px;
+}
+
+.main_image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px 0 0 8px;
+}
+
+.content {
+  padding: 1em 3.2em;
+}
+
+.content h2 {
+  color: var(--very_dark_blue);
+}
+
+.footer {
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.person {
+  display: flex;
+}
+
+.person img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 15px;
+}
+
+.person .name {
+  font-weight: bold;
+  color: var(--very_dark_blue);
+}
+
+.person .date {
+  color: var(--blue);
+}
+
+.share {
+  width: 20px;
+  height: 20px;
+  background: var(--light_blue);
+  padding: 6px;
+  text-align: center;
+  border-radius: 16px;
+}

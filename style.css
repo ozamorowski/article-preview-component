@@ -5,6 +5,13 @@
   --light_blue: hsl(210, 46%, 95%);
 }
 
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
 body,
 html {
   font-family: 'Manrope', sans-serif;
@@ -81,4 +88,12 @@ html {
   .main_image img {
     border-radius: 8px 8px 0 0;
   }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }

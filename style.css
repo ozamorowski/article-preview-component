@@ -71,3 +71,14 @@ html {
   text-align: center;
   border-radius: 16px;
 }
+
+@media (max-width: 750px) {
+  .container {
+    grid-template-columns: 1fr;
+    margin: 6em 1em;
+  }
+
+  .main_image img {
+    border-radius: 8px 8px 0 0;
+  }
+}
